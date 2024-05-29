@@ -1,0 +1,103 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    color: black;
+}
+
+.img {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border: 100px;
+    border-radius: 100px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.header {
+    color: antiquewhite;
+    justify-content: left;
+    margin-bottom: 1%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: black;
+    margin-left: 70%;
+    font-weight: 600;
+    gap: 10px;
+    margin-top: 0%;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(231, 24, 24);
+}
+
+h3 {
+    margin-top: 0%;
+    justify-content: center;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.text {
+    justify-content: center;
+    padding-left: 80px;
+    margin-inline: 5%;
+    
+}
+.word {
+    margin-left: 80px;
+    font-size: 120%;
+    
+}
+button {
+cursor: pointer;
+background-color: yellowgreen;
+color: white;
+margin-left: 20%;
+}
+
+h1 {
+    
+    text-align: center;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 200%;
+}
+
+.About {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+    margin-left: 2%;
+    width: 30%;
+    font-style: italic;
+}
+
+.image,.picture {
+    width: 700px;
+    height: 400px;
+    display: grid;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.submit {
+    margin-right: 10%;
+}
+
+input {
+    margin-left: 15%;
+}
+
